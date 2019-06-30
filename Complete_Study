@@ -75,3 +75,35 @@ $git add .   OR $git add *
 It will add the all files only from current directory.
 
 ==================================
+
+#If you clone the code from remote server then there is no need to git init or add reomte server i.e git add remote origin. .git and remote url added at the time of clone.
+
+#If you have start new project from local then you have to initialize the git i.t git init and also need to add remote origin at the time of push the code to remote server.
+
+
+===================================
+
+README:- Is a markup lang.
+
+It is use to give a some discription about anything you want about project.
+
+=====================================
+
+HTTP:- Need to enter every time password:
+
+SSH:- It is passwordless method. it also use to 
+
+
+=====================================
+
+rsa:- its Encrypted. Algorithm- digitally signed algorithm.
+
+
+dsa:= its decrypted. digitally not signed algorithm.
+
+-t:- is type. ethir you want encrypted or dyceypted.
+
+=====================================
+
+
+
