@@ -1,0 +1,77 @@
+Git:- Distributed 
+
+SVN:- Centralized
+
+Working Dir:-
+
+
+Untracked stage:-
+
+
+Tracked Stage:-
+
+
+Commit:-
+
+
+Remote server:-
+
+
+.git:- control all the task it may be push,pull clone etc.
+
+hasing:- means it provide address.
+
+
+_If you clone then it will automatically added remote repo so then there is no need to enter a command git add remote origin <repo>
+
+
+Pull=Fetch + merge
+
+
+==========================
+#To configure global setting:- It require for commit to know who is changes in code:-
+
+$git config --global user.name "sac"
+$git config --global user.email "sachin193959@gmail.com"
+
+#To check global configure setting:-
+
+$git config --list
+
+--------
+
+Suppose if you want to change a global setting just enter again username and mail id it will overwrite the old one.
+
+=============================
+
+To ignore some file:-
+
+1)First create .gitignore file:
+
+$touch .gitignore
+
+2)After just enter the file name in .gitignore which you want to ignore.
+
+=============================
+
+To Remove from staging area:-
+
+git reset <file naem>
+
+To bring all files from staging area.
+
+git reset
+
+==================================
+
+$git add -A 
+
+It will add the all inside the repo will add to statging area.
+
+----------------
+
+$git add .   OR $git add *
+
+It will add the all files only from current directory.
+
+==================================
